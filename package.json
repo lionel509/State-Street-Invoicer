@@ -1,0 +1,19 @@
+{
+  "name": "state-street-invoicer",
+  "version": "0.1.0",
+  "description": "Obsidian plugin that generates invoice notes from State Street's own records.",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "install-local": "node esbuild.config.mjs && node install.mjs",
+    "invoice": "node invoice.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "^0.24.0",
+    "obsidian": "^1.7.2",
+    "typescript": "^5.7.2"
+  }
+}

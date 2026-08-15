@@ -1,0 +1,9 @@
+{
+  "id": "state-street-invoicer",
+  "name": "State Street Invoicer",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Turn what the vault already records into an invoice note: an IOU page, an Applied Badminton stringing job, or a hand-entered one. Never invents a figure.",
+  "author": "Lionel Weng",
+  "isDesktopOnly": true
+}
